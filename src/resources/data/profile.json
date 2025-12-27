@@ -1,0 +1,10 @@
+{
+  "picture": "../assets/selfie.jpg",
+  "name": "Nobody",
+  "job": "Software developer",
+  "website": "https://www.google.com",
+  "socials": [
+    "Email",
+    "Linkedin"
+  ]
+}

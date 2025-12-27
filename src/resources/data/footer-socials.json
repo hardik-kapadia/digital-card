@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Email",
+    "url": "https://outlook.live.com/mail/0/",
+    "logo": "../assets/icons/email-icon.png"
+  },
+  {
+    "name": "Linkedin",
+    "url": "https://www.linkedin.com/",
+    "logo": "../assets/icons/linkedin-icon-black.png"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/",
+    "logo": "../assets/icons/github-icon.png"
+  },
+  {
+    "name": "LeetCode",
+    "url": "https://leetcode.com/",
+    "logo": "../assets/icons/leetcode-icon.png"
+  }
+]

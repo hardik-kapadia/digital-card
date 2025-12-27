@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #23252C;
+    color: white;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: #1A1B21;
+    width: 317px;
+    height: 780px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.profile-picture {
+    width: 100%;
+    max-width: 317px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-name {
+    font-weight: bold;
+    font-size: 1.56rem;
+    margin-top: 20px;
+}
+
+.profile-job {
+    margin-top: 7px;
+    font-size: 0.8rem;
+    color: #F3BF99;
+}
+
+.profile-website {
+    margin-top: 9px;
+    font-size: 0.64rem;
+    line-height: 150%;
+}
+
+.profile-website > a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-buttons {
+    margin-top: 15px;
+    width: 247px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.social-button {
+    width: 115px;
+    height: 34px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.social-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.social-button > img {
+    width: 16px;
+    height: 16px;
+}
+
+.paragraphs {
+    margin-top: 7px;
+    width: 247px;
+    height: 201px;
+}
+
+.paragraph {
+    margin-top: 16px;
+}
+
+.paragraph-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.paragraph-content {
+    font-size: 0.64rem;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #161619;
+    padding: 16px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.footer-icon {
+    width: 27px;
+    height: 27px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 10%;
+    cursor: pointer;
+}

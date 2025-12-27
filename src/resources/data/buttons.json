@@ -1,0 +1,16 @@
+[
+  {
+    "logo": "../assets/icons/linkedin-icon.png",
+    "text": "Linkedin",
+    "backgroundColor": "#5093E2",
+    "textColor": "white",
+    "link": "https://www.linkedin.com/"
+  },
+  {
+    "logo": "../assets/icons/email-icon.png",
+    "text": "Email",
+    "backgroundColor": "white",
+    "textColor": "black",
+    "link": "https://outlook.live.com/mail/0/"
+  }
+]
